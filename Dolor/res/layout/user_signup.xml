@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_login"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#10454c"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="@string/hint_first_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:height="30dp"
+            android:hint="@string/hint_last_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/organzation_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:ems="10" 
+            android:hint="@string/hint_org_name" >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/birthday"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="@string/hint_birthday"
+            android:inputType="date" />
+
+        <Spinner
+            android:id="@+id/user_gender"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:entries="@array/user_gender"
+            android:prompt="@string/gender_prompt" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="20dp"
+            android:onClick="userSignup"
+            android:text="@string/submit_sign_up" />
+    </LinearLayout>
+
+</LinearLayout>
