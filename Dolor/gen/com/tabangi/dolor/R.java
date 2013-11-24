@@ -110,16 +110,16 @@ public final class R {
         public static final int view_map=0x7f080009;
     }
     public static final class string {
-        public static final int action_forgot_password=0x7f05001f;
+        public static final int action_forgot_password=0x7f050020;
         public static final int action_settings=0x7f050001;
-        public static final int action_sign_in_register=0x7f05001d;
-        public static final int action_sign_in_short=0x7f05001e;
+        public static final int action_sign_in_register=0x7f05001e;
+        public static final int action_sign_in_short=0x7f05001f;
         public static final int app_name=0x7f050000;
         public static final int app_name_aid=0x7f050015;
-        public static final int error_field_required=0x7f050024;
-        public static final int error_incorrect_password=0x7f050023;
-        public static final int error_invalid_email=0x7f050021;
-        public static final int error_invalid_password=0x7f050022;
+        public static final int error_field_required=0x7f050025;
+        public static final int error_incorrect_password=0x7f050024;
+        public static final int error_invalid_email=0x7f050022;
+        public static final int error_invalid_password=0x7f050023;
         public static final int fblogin_str=0x7f050003;
         public static final int gender_prompt=0x7f05000c;
         public static final int hello_blank_fragment=0x7f05000a;
@@ -130,14 +130,14 @@ public final class R {
         public static final int hint_last_name=0x7f05000e;
         public static final int hint_org_name=0x7f05000f;
         public static final int log_in=0x7f050014;
-        public static final int login_progress_signing_in=0x7f050020;
+        public static final int login_progress_signing_in=0x7f050021;
         public static final int logoutStr=0x7f050007;
         public static final int menu_refresh=0x7f050012;
         public static final int menu_search=0x7f050013;
         /**  Strings related to login 
          */
-        public static final int prompt_email=0x7f05001b;
-        public static final int prompt_password=0x7f05001c;
+        public static final int prompt_email=0x7f05001c;
+        public static final int prompt_password=0x7f05001d;
         public static final int signup_btn=0x7f05000b;
         public static final int sosStr=0x7f050005;
         public static final int submit_sign_up=0x7f050011;
@@ -145,10 +145,11 @@ public final class R {
         public static final int title_activity_calamity_info=0x7f050019;
         public static final int title_activity_feeds_page=0x7f050004;
         public static final int title_activity_help_page=0x7f050009;
-        public static final int title_activity_login_form=0x7f05001a;
+        public static final int title_activity_login_form=0x7f05001b;
         public static final int title_activity_map=0x7f050016;
         public static final int title_activity_sos_page=0x7f050008;
         public static final int title_activity_view_map=0x7f050018;
+        public static final int viewMap2=0x7f05001a;
     }
     public static final class style {
         /** 

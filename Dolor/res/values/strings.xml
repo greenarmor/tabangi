@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Dolor</string>
+    <string name="app_name">Tabangi</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="fblogin_str"></string>
@@ -74,5 +74,7 @@
     </string-array>
 
     <string name="title_activity_calamity_info">CalamityInfo</string>
+
+    <string name="viewMap2">View  Map</string>
 
 </resources>

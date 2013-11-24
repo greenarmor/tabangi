@@ -33,12 +33,12 @@ public class aid_map extends Activity {
 		event_list.setContent(R.id.event_list);
 		event_list.setIndicator("Event List");
 
-		TabHost.addTab(overview_map);
+		// TabHost.addTab(overview_map);
 		TabHost.addTab(calamity_list);
 		TabHost.addTab(event_list);
     }
 	
-	public void viewMap(View view) {
+	public void viewTheMap(View view) {
 		Intent view_map = new Intent(this, ViewMap.class);
 		startActivity(view_map);
 	}
