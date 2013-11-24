@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.tabangi.dolor"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="18" />
-    
+        android:targetSdkVersion="18"
+        tools:ignore="OldTargetApi" />
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -39,6 +41,31 @@
         <activity
             android:name="com.tabangi.dolor.user_signup"
             android:label="@string/title_activity_help_page" >
+        </activity>
+        <activity
+            android:name="com.tabangi.dolor.aid"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tabangi.dolor.aid_map"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tabangi.dolor.login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.tabangi.dolor.MapActivity"
+            android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name="com.tabangi.dolor.LoginForm"
+            android:label="@string/title_activity_login_form"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.tabangi.dolor.CalamityEventInfo"
+            android:label="@string/title_activity_calamity_event_info" >
         </activity>
     </application>
 

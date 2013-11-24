@@ -22,14 +22,19 @@ public class LoginPage extends Activity {
 		getMenuInflater().inflate(R.menu.login_page, menu);
 		return true;
 	}
+
+	public void login(View view) {
+		Intent log_in_intent = new Intent(this, LoginForm.class);
+		this.startActivity(log_in_intent);
+	}
 	
 	public void loginFacebook(View view) {
-		Intent intent = new Intent(this, FeedsPage.class);
-		this.startActivity(intent);
+		Intent log_in_facebook = new Intent(this, aid_map.class);
+		startActivity(log_in_facebook);
 	}
 	
 	public void sign_up(View view) {
-		Intent intent = new Intent(this, user_signup.class);
-		this.startActivity(intent);
+		Intent sign_up_intent = new Intent(this, user_signup.class);
+		this.startActivity(sign_up_intent);
 	}
 }

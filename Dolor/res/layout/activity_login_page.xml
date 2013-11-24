@@ -8,17 +8,30 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".LoginPage" >
-    <Button 
-        android:background="@drawable/btn_singup" 
-        android:layout_height="wrap_content" 
-        android:layout_width="wrap_content" 
-        android:width="405dp" 
-        android:text="@string/signup_btn" 
-        android:height="30dp" 
+
+    <Button
+        android:id="@+id/log_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_marginBottom="15dp"
+        android:onClick="login"
+        android:text="@string/log_in"
+        android:width="404dp" />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/btn_singup"
+        android:height="30dp"
         android:onClick="sign_up"
-        android:layout_marginBottom="51dp" 
-        android:layout_alignParentBottom="true" 
-        android:id="@+id/sign_up"/>
+        android:text="@string/signup_btn"
+        android:width="405dp" />
 
     <Button
         android:id="@+id/button1"
@@ -26,10 +39,20 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/sign_up"
         android:layout_alignLeft="@+id/sign_up"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/btn_facebook"
         android:onClick="loginFacebook"
         android:text="@string/fblogin_str"
         android:width="404dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/log_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="@string/action_settings"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
