@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
-    <TabHost 
+    <TabHost
         android:id="@+id/tabhost"
-        android:autoLink="web" 
         android:layout_width="wrap_content"
-       android:layout_height="wrap_content"  >
+        android:layout_height="wrap_content"
+        android:autoLink="web" >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -16,54 +19,56 @@
             <TabWidget
                 android:id="@android:id/tabs"
                 android:layout_width="match_parent"
-                android:layout_height="60sp" >
+                android:layout_height="wrap_content" >
             </TabWidget>
 
             <FrameLayout
                 android:id="@android:id/tabcontent"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="match_parent" >
 
                 <LinearLayout
                     android:id="@+id/overview_map"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-
-                    <WebView
-                        android:id="@+id/webView1"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="bottom"
-                        android:windowSoftInputMode="adjustResize" />
-
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false"
+                    tools:ignore="Orientation" >
+                    
+                    <include layout="@layout/activity_view_map" />                    
+                    
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/calamity_list"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" android:baselineAligned="false">
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false" >
 
                     <ListView
                         android:id="@+id/calamity_list_view"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:entries="@array/calamity_list_view">
                     </ListView>
-
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/event_list"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" android:baselineAligned="false">
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false" >
+
                     <ListView
                         android:id="@+id/events_list_view"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1" >
+                        android:layout_weight="1" 
+                        android:entries="@array/events_list_view">
                     </ListView>
                 </LinearLayout>
             </FrameLayout>
         </LinearLayout>
     </TabHost>
+
 </LinearLayout>

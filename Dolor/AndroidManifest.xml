@@ -11,6 +11,11 @@
         tools:ignore="OldTargetApi" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -66,6 +71,14 @@
         <activity
             android:name="com.tabangi.dolor.CalamityEventInfo"
             android:label="@string/title_activity_calamity_event_info" >
+        </activity>
+        <activity
+            android:name="com.tabangi.dolor.ViewMap"
+            android:label="@string/title_activity_view_map" >
+        </activity>
+        <activity
+            android:name="com.tabangi.dolor.CalamityInfo"
+            android:label="@string/title_activity_calamity_info" >
         </activity>
     </application>
 

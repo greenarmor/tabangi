@@ -31,5 +31,48 @@
     <string name="app_name_aid">AId</string>
     <string name="title_activity_map">MapActivity</string>
     <string name="title_activity_calamity_event_info">CalamityEventInfo</string>
+    <string name="title_activity_view_map">ViewMap</string>
+
+    <string-array name="calamity_list_view">
+        <item>Richard Tamala - Typhoon Yolanda</item>
+        <item>Joshua Delica - Typhoon Yolanda</item>
+        <item>Tata Emmanuel - Typhoon Yolanda</item>
+        <item>Ryan Gambito - Typhoon Yolanda</item>
+        <item>Richard Tamala - Typhoon Yolanda</item>
+        <item>Joshua Delica - Typhoon Yolanda</item>
+        <item>Tata Emmanuel - Typhoon Yolanda</item>
+        <item>Ryan Gambito - Typhoon Yolanda</item>
+        <item>Richard Tamala - Typhoon Yolanda</item>
+        <item>Joshua Delica - Typhoon Yolanda</item>
+        <item>Tata Emmanuel - Typhoon Yolanda</item>
+        <item>Ryan Gambito - Typhoon Yolanda</item>
+        <item>Richard Tamala - Typhoon Yolanda</item>
+        <item>Joshua Delica - Typhoon Yolanda</item>
+        <item>Tata Emmanuel - Typhoon Yolanda</item>
+        <item>Ryan Gambito - Typhoon Yolanda</item>
+        <item>Richard Tamala - Typhoon Yolanda</item>
+        <item>Joshua Delica - Typhoon Yolanda</item>
+        <item>Tata Emmanuel - Typhoon Yolanda</item>
+        <item>Ryan Gambito - Typhoon Yolanda</item>
+    </string-array>
+    <string-array name="events_list_view">
+        <item>Typhoon Yolanda Fund Raising</item>
+        <item>Fun Run for a cause, Yolanda Calamity</item>
+        <item>Repacking donation volunteering</item>
+        <item>Typhoon Yolanda Fund Raising</item>
+        <item>Fun Run for a cause, Yolanda Calamity</item>
+        <item>Repacking donation volunteering</item>
+        <item>Typhoon Yolanda Fund Raising</item>
+        <item>Fun Run for a cause, Yolanda Calamity</item>
+        <item>Repacking donation volunteering</item>
+        <item>Typhoon Yolanda Fund Raising</item>
+        <item>Fun Run for a cause, Yolanda Calamity</item>
+        <item>Repacking donation volunteering</item>
+        <item>Typhoon Yolanda Fund Raising</item>
+        <item>Fun Run for a cause, Yolanda Calamity</item>
+        <item>Repacking donation volunteering</item>
+    </string-array>
+
+    <string name="title_activity_calamity_info">CalamityInfo</string>
 
 </resources>

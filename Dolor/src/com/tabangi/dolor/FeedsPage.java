@@ -13,6 +13,7 @@ import com.microsoft.windowsazure.mobileservices.*;
 
 public class FeedsPage extends Activity {
 	
+	@SuppressWarnings("unused")
 	private MobileServiceClient db;
 
 	@Override

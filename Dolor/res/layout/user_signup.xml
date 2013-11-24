@@ -62,8 +62,7 @@
             android:layout_height="30dp"
             android:layout_marginBottom="20dp"
             android:background="#FFFFFF"
-            android:entries="@array/user_gender"
-            android:prompt="@string/gender_prompt" />
+            android:entries="@array/user_gender" />
 
         <Button
             android:id="@+id/button1"

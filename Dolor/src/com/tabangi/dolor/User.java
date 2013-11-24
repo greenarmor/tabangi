@@ -5,6 +5,6 @@ public class User {
 	public String FirstName;
 	public String LastName;
 	public String Birthday;
-	public String Orgid;
 	public String Gender;
+	public String Organization;
 }
